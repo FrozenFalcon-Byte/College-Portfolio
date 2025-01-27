@@ -160,7 +160,7 @@ html,body{
         height: 100vh;
         padding: 8rem;
         display: flex;
-        gap: 2rem;
+        gap: 3rem;
         align-items: center;
         justify-content: space-between;
         .left-lp{
@@ -250,12 +250,13 @@ html,body{
                 height: 27rem;
                 border-radius: 2rem;
                 box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+                outline: 2px solid var(--text-dark);
+                outline-offset: 2px;
                 transition: all 0.4s ease-in;
 
                 &:hover{
                     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
                     transform: translateY(-5px);
-
                 }
             }
         }
